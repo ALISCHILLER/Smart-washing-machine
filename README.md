@@ -1,6 +1,6 @@
 # Flutter UI Challenge- SMART Washing Machine
 
-![Flutter smart washing machine app]()
+
 
 ## About project
 
