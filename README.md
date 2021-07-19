@@ -4,7 +4,7 @@
 
 ## About project
 
-If you want to be informed about new projects, follow me on [Instagram](https://www.instagram.com/programer._msa) or [Linkedln]()
+If you want to be informed about new projects, follow me on [Instagram](https://www.instagram.com/programer.__msa/) or [Linkedln]()
 
 
 ## Dev
