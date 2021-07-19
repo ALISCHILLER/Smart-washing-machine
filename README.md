@@ -17,4 +17,4 @@ The balls simulation is conducted using the **Box2D** physic engine.
 
 In settings, you can switch to dark mode and turn off "metaball effect".
 
-![How to disable metaball](https://github.com/ALISCHILLER/Smart-washing-machine.git/raw/master/doc/img/settings.png)
+
