@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_whirlpool/screens/main/timer_panel.dart';
+import 'package:flutter_whirlpool/screens/settings/settings_bottom_sheet.dart';
+import 'package:flutter_whirlpool/shared/colors.dart';
+import 'package:flutter_whirlpool/shared/consts.dart';
+import 'package:flutter_whirlpool/shared/widgets.dart';
+import 'package:flutter_whirlpool/view_models/settings_view_model.dart';
+import 'package:provider/provider.dart';
+
+class TopBar extends StatelessWidget {
+  const TopBar({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.fromLTRB(
+          GLOBAL_EDGE_MARGIN_VALUE, DRAWER_BUTTON_MARGIN_TOP, 18, 10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          NeumorphicIconButton(
+            icon: Icon(
+              Icons.settings,
+              color: CustomColors.icon,
+            ),
+            onTap: () {
+              showModalBottomSheet<void>(
+                  context: context,
+                  backgroundColor: Colors.transparent,
+                  builder: (BuildContext context) {
+                    return SettingsBottomSheet();
+                  });
+            },
+          ),
+          TimerPanel()
+        ],
+      ),
+    );
+  }
+}
