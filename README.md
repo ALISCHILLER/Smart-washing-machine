@@ -4,10 +4,6 @@
 
 ## About project
 
-## App in action
-
-## Follow me
-
 If you want to be informed about new projects, follow me on [Instagram](https://www.instagram.com/programer._msa) or [Linkedln]()
 
 
